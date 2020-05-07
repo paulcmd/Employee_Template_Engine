@@ -17,7 +17,7 @@ const PORT = 3000;
 // Empty employee array
 const employeeArray = [];
 
-//___________generate an employee from the list______________________________________
+//___________Generate an employee from the list______________________________________
 function generateEmployee() {
     inquirer.prompt([
         {
@@ -48,7 +48,7 @@ function generateEmployee() {
         }
     });
 }
-
+//_____________Generate Intern______________________________________________
 function generateIntern() {
     inquirer.prompt([
         {
@@ -78,7 +78,7 @@ function generateIntern() {
         generateEmployee();
     })
 }
-
+//_____________Generate Manager_____________________________________________
 function generateManager() {
     inquirer.prompt([
         {
@@ -108,7 +108,7 @@ function generateManager() {
         generateEmployee();
     })
 }
-
+//__________Generate Engineer_______________________________________________
 function generateEngineer() {
     inquirer.prompt([
         {
