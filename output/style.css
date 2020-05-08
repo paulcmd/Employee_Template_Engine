@@ -1,0 +1,49 @@
+body {
+    background-image: url("https://www.lefthudson.com/wp-content/uploads/2019/11/white-background-1920x1080-fresh-white-background-wallpaper-hd-wallpapersafari-combination-of-white-background-1920x1080.jpg");
+    font-family: 'Poppins', sans-serif;;
+}
+
+.text-center{
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+.team-heading {
+    background-color:skyblue;
+    padding: 15px;
+}
+
+.team-heading h1 {
+    color: white;
+    background-color: skyblue;
+    padding: 5px;
+}
+
+.shadow{
+margin-right: 20px;
+    margin-left: 20px;
+}
+.team-area {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.employee-card {
+    width: 349px;
+    margin: 10px;
+}
+
+.card-header {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.card-body {
+    background-color: white;
+    border: dodgerblue 1px;
+}
+
+.list-group {
+    color: darkslategray;
+}
